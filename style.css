@@ -349,12 +349,12 @@ button:hover{
       }
 
     .under2 {
-        position: absolute;
+        position: relative;
         top: 50%;
         left: 15%; 
     }
     .under1 button{
-        position: absolute;
+        position: realtive;
         top: 40%;
         padding: 40px;
         font-size: 30px;
