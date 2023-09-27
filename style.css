@@ -356,6 +356,36 @@ button:hover{
     
 }
 
+@media(max-width:376px){
+.under1 h3{
+    white-space: nowrap;
+}
+.under2 {
+    padding: 0px 0px;
+    flex-grow: 1;
+    transform: translate(208px,114px);
+}
+.under2 img{
+    max-height: 100%;
+    max-width: 100%;
+}
+}
+@media(max-width:415px){
+    .under1 h3{
+        white-space: nowrap;
+    } 
+    .under2 {
+        padding: 0px 0px;
+        flex-grow: 1;
+        transform: translate(208px,114px);
+    }
+    .under2 img{
+        max-height: 100%;
+        max-width: 100%;
+    }
+
+}
+
 .menu button{
     position: relative;
     background-color: white;
