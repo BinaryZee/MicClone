@@ -84,16 +84,12 @@ body{
     border-radius: 100px;
     font-size: 20px;
     margin-top: 40px;
-    transition:.1s;
+    transition:.2s;
     margin-left: 110px; 
 }
 button:hover{
-    padding-left: 62px;
-    padding-right: 62px;
-    padding-top: 12px;
-    padding-bottom: 12px;
     transition: .5s;
-    transform: scale(1);
+    transform: scale(1.1);
 }
 
 .span{
@@ -294,8 +290,10 @@ button:hover{
 }
 @media(max-width:774px){
     .hamburger{
+       position: relative; 
        margin-left: 470px;
-       transform: translateY(-63px); 
+       transform: translate(11px,-64px);
+       right: 26px;
     }
     .under {
         flex-direction: column;
@@ -329,6 +327,7 @@ button:hover{
     .under1 h3{
         white-space: nowrap;
     }
+   
 
 }
 @media(max-width:415px){
