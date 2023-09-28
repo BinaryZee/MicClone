@@ -86,6 +86,7 @@ body{
     margin-top: 40px;
     transition:.2s;
     margin-left: 110px; 
+    border:none;
 }
 button:hover{
     transition: .5s;
